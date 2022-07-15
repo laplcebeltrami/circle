@@ -7,8 +7,7 @@ smoothing. NeuroImage 25:1256-1265 https://pages.stat.wisc.edu/~mchung/papers/ni
 
 [2] Hoffmann, T.J., Chung, M.K., Dalton, K.M., Alexander, A.L., Wahba, G., Davidson, R.J. 2004. Subpixel curvature estimation of the corpus callosum via splines and its application to autism, 10th Annual Meeting of the Organization for Human Brain Mapping (OHBM). https://pages.stat.wisc.edu/~mchung/papers/HBM2004/HBM2004thomas.html
 
-
-Heat kernel smoothing in [0,1] with kernel bandwith 0.00001 is shown below. The method smooths most of curve segements excpet betwen the segment betewen the first and the last points. The cosine basis is periodic basis along the circle. However, the way we are fitting the data, we are not able to smooth
+Run script SCRIPT-circle.m. Heat kernel smoothing in [0,1] with kernel bandwith 0.00001 is shown below. The method smooths most of curve segements excpet betwen the segment betewen the first and the last points. The cosine basis is periodic basis along the circle. However, the way we are fitting the data, we are not able to smooth
 and connect the first point and the last point smoothly.
 
 ![alt text](https://github.com/laplcebeltrami/circle/blob/main/CC.jpg?raw=true)
