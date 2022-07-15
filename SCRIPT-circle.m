@@ -80,7 +80,7 @@ hold on; plot([wfs(end,1);wfs(1,1)], [wfs(end,2);wfs(1,2)], '-g','LineWidth',2)
 %Huang, S.-G., Chung, M.K., Carroll, I.C., Goldsmith, H.H. 2019 
 %Dynamic functional connectivity using heat kernel. 
 %IEEE Data Science Workshop (DSW), 222-226 
-%http://brainimaging.waisman.wisc.edu/~chung/circle
+%https://pages.stat.wisc.edu/~mchung/papers/huang.2019.DSW.pdf
 
 %% Theoretically method supposed to work but not working.
 Y = [x1 y1]; x=para';
