@@ -1,4 +1,4 @@
-## Functional Data Analysis on Circle via Heat Kernel Smoothing
+### Functional Data Analysis on Circle via Heat Kernel Smoothing
 
 The main objective is to match two functional data (corpus callosum boundaries) defined on a circle for cross comparison that reduces spatial variability in statistical analysis. The dataset came from studies
 
