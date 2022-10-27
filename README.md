@@ -17,7 +17,7 @@ https://pages.stat.wisc.edu/~mchung/papers/huang.2019.DSW.pdf
 
 It can be fitted using WFS_COSINE_mirror.m. 
 
-![alt text](https://github.com/laplcebeltrami/circle/blob/main/CC.jpg?raw=true)
+![alt text](https://github.com/laplcebeltrami/circle/blob/main/CC2.jpg?raw=true)
 
 (C) 2005- Zijian Chen, Moo K. Chung
 University of Wisconsin-Madison
