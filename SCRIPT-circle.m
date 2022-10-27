@@ -82,17 +82,10 @@ hold on; plot([wfs(end,1);wfs(1,1)], [wfs(end,2);wfs(1,2)], '-g','LineWidth',2)
 %IEEE Data Science Workshop (DSW), 222-226 
 %https://pages.stat.wisc.edu/~mchung/papers/huang.2019.DSW.pdf
 
-%% Theoretically method supposed to work but not working.
+
 Y = [x1 y1]; x=para';
-Y = [Y; Y; Y]; x=[para para para]';
-[wfs beta]=WFS_COSINE(Y,x,20,0.00001);
+[wfs beta]=WFS_COSINE_mirror(Y,x,20,0.00001);
 figure;plot(x1(:),y1(:),'.-')
 hold on; plot(wfs(:,1),wfs(:,2),'-r', 'LineWidth',2);
 hold on; plot([wfs(end,1);wfs(1,1)], [wfs(end,2);wfs(1,2)], '-g','LineWidth',2)
 
-
-
-
-
-
- 
