@@ -15,8 +15,9 @@ and connect the first point and the last point smoothly.
 One way to remedy the problem is connecting data across the start and end points as in Huang, S.-G., Chung, M.K., Carroll, I.C., Goldsmith, H.H. 2019 Dynamic functional connectivity using heat kernel. IEEE Data Science Workshop (DSW), 222-226
 https://pages.stat.wisc.edu/~mchung/papers/huang.2019.DSW.pdf
 
-However, it is not working. See if you can find the quick-fix to the problem.
+It can be fitted using WFS_COSINE_mirror.m. 
 
+![alt text](https://github.com/laplcebeltrami/circle/blob/main/CC.jpg?raw=true)
 
-(C) 2005- Moo K. Chung
+(C) 2005- Zijian Chen, Moo K. Chung
 University of Wisconsin-Madison
